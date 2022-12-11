@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Accordion</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar bg-light">
+          <form class="container-fluid justify-content-start">
+            <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+          </form>
+        </nav>
+      </header>
+        <main>
+          <h1>Accordion</h1>
+            <section class="accordion accordion-flush" id="accordionFlushExample">
+              <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    ¿Que es un acordeon?
+                  </button>
+                </h2>
+                <section id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body"> Es un elemento que permite ocultar y organizar el espacio en una página web</p>
+                </section>
+              </section>
+              <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Como Funciona
+                  </button>
+                </h2>
+                <section id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body">Funciona con un recuadro que muestra un texto y luego se expande para mostrar la información que incluye dentro</p>
+                </section>
+              </section>
+              <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Usos Comunes
+                  </button>
+                </h2>
+                <section id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body">Se utiliza en preguntas frecuentes, Preguntas Relacionas, para poner información importante de una empresa(mision, vision ...)</p>
+                </section>
+              </section>
+            </section>
+        </main>
+    </body>
+        
+</html>

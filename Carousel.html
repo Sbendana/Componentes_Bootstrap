@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Carousel</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar bg-light">
+          <form class="container-fluid justify-content-start">
+            <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+          </form>
+        </nav>
+      </header>
+        <main>
+          <h1>Carrucel</h1>
+          <p>Un carrucel es un componente que desliza en ciclo varios componentes, de mayoria imagenes. muy utlizado para hacer galerias</p>
+          <section id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <section class="carousel-inner">
+              <section class="carousel-item active">
+                <img src="asserts/frutasimg1.png" class="d-block w-100" alt="frutas1">
+              </section>
+              <section class="carousel-item">
+                <img src="asserts/frutasimg2.png" class="d-block w-100" alt="frutas2">
+              </section>
+              <section class="carousel-item">
+                <img src="asserts/frutasimg3.png" class="d-block w-100" alt="frutas3">
+              </section>
+            </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </section>
+      </main>
+    </body>
+</html>
