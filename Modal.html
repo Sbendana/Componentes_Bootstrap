@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Modal</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar bg-light">
+          <form class="container-fluid justify-content-start">
+            <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+          </form>
+        </nav>
+      </header>
+        <main>
+            <h1>Modal</h1>
+            <p>Una caja de Notificaciones que se puede utilizar para todo tipo de contenido</p>
+            
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+            <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <section class="modal-dialog">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal ejemplo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </section>
+                    <section class="modal-body">
+                      WOO JUU estas viendo un modal
+                    </section>
+                    <section class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </section>
+                  </section>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Toast</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+        <script src="js/script.js" rel="stylesheet"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar bg-light">
+              <form class="container-fluid justify-content-start">
+                <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+              </form>
+            </nav>
+          </header>
+        <main>
+            <h1>Toast</h1>
+            <p>Mensajes de alarta para un usuario</p>
+            <h2>Basic</h2>
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+            </div>
+            <h2>Down</h2>
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+            <section class="toast-container position-fixed bottom-0 end-0 p-3">
+                  <section id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <section class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small>11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </section>
+                    <section class="toast-body">
+                      Hello, world! This is a toast message.
+                    </section>
+                  </section>
+                </section>
+
+                
+              
+        </main>
+    </body>
+</html>

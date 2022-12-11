@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Popover</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+        <script src="js/script.js" rel="stylesheet"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar bg-light">
+              <form class="container-fluid justify-content-start">
+                <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+              </form>
+            </nav>
+          </header>
+        <main>
+            <h1>Pophover
+            </h1>
+            <p>Son mensajes que se pueden agregar a un elemento.</p>
+            <h2>Four directions</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                Popover on top
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+                Popover on right
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                Popover on bottom
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+                Popover on left
+              </button>
+              <h2>Disable</h2>
+              <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Disabled popover">
+                <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+              </span>
+              
+        </main>
+    </body>
+</html>

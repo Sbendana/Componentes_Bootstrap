@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Collapse</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar bg-light">
+          <form class="container-fluid justify-content-start">
+            <a class="btn btn-outline-success me-2" href="index.html" type="button" >Página Principal</a>
+          </form>
+        </nav>
+      </header>
+        <main>
+            <h1>Collapse</h1>
+            <p>Estos componentes utilizan elementos escondidos para aprovechar el espacio de vision de un usuario.</p>
+            <p>
+              <h2>Vertical</h2>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Link 
+                </a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Button 
+                </button>
+            </p>
+                <section class="collapse" id="collapseExample">
+                    <section class="card card-body">
+                       Estos se pueden utilzar con un link a alguna pagina o con un boton.
+                    </section>
+                </section>
+                <p>
+            <hr class="solid">
+            <h2>Horizontal</h2>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                      Efecto
+                    </button>
+            </p>
+            <section style="min-height: 120px;">
+              <section class="collapse collapse-horizontal" id="collapseWidthExample">
+                <section class="card card-body" style="width: 300px;">
+                  Tambien pueden tener efectos.
+                </section>
+              </section>
+            </section>
+        </main>    
+        
+    </body>
